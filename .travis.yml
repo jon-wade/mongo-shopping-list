@@ -8,3 +8,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: As/leiLKVSL/pqXtkROruLWFl+iuJ/411ZNLnVnQL1qdhuAz0mqrq49AHg0pFgXfFyNgn5HGDEXEFnYlijz3sInoRIuZ/xtUIH5U6k2uUndZpeQS5Cou0TZcjbCeEtt8/xAujyoRwK7o6neVvrjNbJXYbd1+vMLMWGTXsX89KUFyc6e/kEPxErUfYDY5gz+mVuY6yF59OR71z8pvSI7WIx8s9f0aL4zqsSm8EOz1iUyxBp6x9osqW7niuILS18Hx5H5LefZ8O77kjYxfCnsV+qDmQ3veX0PGxS6mzSzlu7CkOXv5Pd1p2qHX0zfHtqXvCuoiKK63YgkeAIgWODPr7RGCytAdgFKBicAyMPKpaW7TdbUZaTPvvwrL9X2G8Nw43lHYtSjptzO5QdUnulyQZg0ORWwsGY7m7+d+luJRK/JQAIKoLT+dxBWEret6rAzUyuGzspQpDutYLHi3m0ojRSyZ90+l7f/Hxtb3LlkBgRnBmlhLkNo4z91fVtd8ICaLTRTort+9dnCI4kiwdJnt0m6Rf5+J8Mx8qC+0rD4Bmo4Tsd/CnCLIrErOhz12ir94H9hwxASgZLoTHSHDg6r4qyb2VrM11MX5DqpxDlTBWiTLx8u2jrM7PVGau5POkY+VaVG9z9OC08H2tQUBne2g5YNX8/WX6b5Hb3A3U9JZ060=
+  app: still-peak-81349
+  on:
+    repo: jon-wade/mongo-shopping-list
