@@ -1,1 +1,1 @@
-module.exports = global.environment || 'development';
+module.exports = 'production';

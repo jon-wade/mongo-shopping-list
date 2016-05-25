@@ -6,6 +6,6 @@
     "url": "mongodb://localhost/shopping-list-test"
   },
   "development": {
-    "url": "mongodb://localhost/shopping-list-dev"
+    "url": "mongodb://user1:password@ds011422.mlab.com:11422/mongo-shopping-list-production"
   }
 }
