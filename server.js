@@ -1,4 +1,7 @@
 require('./db/connect');
+
+global.environment = 'production';
+
 var express = require('express');
 var bodyParser = require('body-parser');
 var itemRoutes = require('./routes/item');
